@@ -2,6 +2,7 @@
 
 # Syntax sugar.
 BIN_DIR=$(cd "$(dirname "$0")" || return; pwd) # absolute path
+BUILDPACK_DIR=$(dirname "$BIN_DIR")
 
 # shellcheck source=bin/utils
 source "$BIN_DIR/utils"
